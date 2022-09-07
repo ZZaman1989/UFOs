@@ -86,9 +86,7 @@ For your written analysis, be sure to use complete and coherent sentences. Your 
 
 1. **Overview of Project:** Dana’s webpage and dynamic table are working as intended, but she’d like to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, you’ll add table filters for the city, state, country, and shape.
 
-2. **Results:** Let’s describe step by step how someone might use the new webpage by walking through the process of using the search criteria. Using images of your webpage during the filtering process to support your explanation.
- 
-Let’s begin reviewing our HTML Filter and Table code. 
+2. **Results:** 
 
 From our Website (https://zzaman1989.github.io/index.html). 
 
