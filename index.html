@@ -6,9 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UFO Finder</title>
-
-
-    <!--link to BootStrap-->    
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -17,7 +14,7 @@
     />
 
 
-    <!--link to external CSS file-->
+    
     <link rel="stylesheet" href="static/css/style.css">
 
 </head>
@@ -30,21 +27,18 @@
         </nav>
     </div>
 
-
-
-    <!--Webpage Header-->
     <div class="jumbotron">
         <h1 class="display-4">The Truth is Out There</h1>
     </div>
 
-    <!--Article Title and Paragraph-->
+    
     <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 article-titles">
                 <h3>UFO Sightings: Fact of Fancy? <small>Ufologists Weigh In</small></h3>
           </div>
 
-          <div class="col-md-8">
+          <div class="col-md-8 article-p">
                 <p>
                     Are we alone in the universe? For millennia, humans have turned to the sky to answer this question. 
                     Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, 
@@ -71,49 +65,38 @@
 
 
 
-    <!--Filter and Table-->
+    
     <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
                 <form class="bg-dark">
-                    <p><b><u>FILTER SEARCH</u></b></p>
+                    <p>Filter Search</p>
                     <ul class="bg-dark">
 
-                        <!-- CHALLENGE NEED - Filter Using New <form> Tag-->
-                        <li class="list-group" class="btn-dark">
+                        
+                        <li class="list-group" class="bg-dark">
                                 <label for="datetime">Enter Date</label>
                                 <input type="text" placeholder="1/10/2010" id="datetime" />
                         </li>
 
-                        <li class="list-group" class="btn-dark">
+                        <li class="list-group" class="bg-dark">
                             <label for="city">Enter City</label>
                             <input type="text" placeholder="benton" id="city">
                         </li>
 
-                        <li class="list-group" class="btn-dark">
+                        <li class="list-group" class="bg-dark">
                             <label for="state">Enter State</label>
                             <input type="text" placeholder="ar" id="state">
                         </li>
 
-                        <li class="list-group" class="btn-dark">
+                        <li class="list-group" class="bg-dark">
                             <label for="country">Enter Country</label>
                             <input type="text" placeholder="us" id="country">
                         </li>
 
-                        <li class="list-group" class="btn-dark">
+                        <li class="list-group" class="bg-dark">
                             <label for="shape">Enter Shape</label>
                             <input type="text" placeholder="circle" id="shape">
-                        </li>
-                        
-                        <li class="list-group" class="btn-dark">
-                            <button id="filter-btn" type="button" class="btn-dark">
-                            Filter Table
-                            </button>
-
-                            <button id="clear-btn" type="button" class="btn-dark">
-                            Clear Table
-                            </button>
-
                         </li>
 
                     </ul>
@@ -121,7 +104,7 @@
           </div>
 
 
-          <!--Dynamic Table-->
+          
           <div class="col-md-9">
                 <table class="table table-striped">
                 <thead>
@@ -141,11 +124,10 @@
         
         </div>
       
-      <!--JS Script with D3 Library-->
+      
       </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
       <script src="static/js/data.js"></script>
       <script src="static/js/app.js"></script>
 </body>
 </html>
-<!--
